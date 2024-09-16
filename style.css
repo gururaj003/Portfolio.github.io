@@ -254,7 +254,36 @@ img {
     border-radius: 30%;
     overflow: hidden;
     margin-bottom: var(--mb-2);
-    margin-top: -140px;
+    margin-top: -90px;
+}
+
+.salesforce__logo,
+.salesforce__logo3 {
+    height: 90px;
+    margin-left: 20px;
+    transition: 3s;
+}
+
+.salesforce__logo1,
+.salesforce__logo4 {
+    height: 90px;
+    margin-top: -90px;
+    margin-left: 180px;
+    transition: 3s;
+}
+
+.salesforce__logo2 {
+    height: 90px;
+    margin-left: 100px;
+    transition: 3s;
+}
+
+.salesforce__logo:hover,
+.salesforce__logo1:hover,
+.salesforce__logo2:hover,
+.salesforce__logo3:hover,
+.salesforce__logo4:hover {
+    height: 110px;
 }
 
 
@@ -682,7 +711,7 @@ img {
 }
 
 .skills__js {
-    width: 30%;
+    width: 40%;
 }
 
 .skills__xml {
@@ -694,7 +723,7 @@ img {
 }
 
 .skills__py {
-    width: 60%;
+    width: 40%;
 }
 
 .skills__java {
@@ -710,7 +739,7 @@ img {
 }
 
 .skills__ap {
-    width: 40%;
+    width: 80%;
 }
 
 
